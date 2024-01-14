@@ -6,7 +6,7 @@ using namespace std;
 int max(int a,int b){
     return a>b?a:b;
 }
-// recursive method time complexity is 2^n
+// recursive method time complexity is O(2^n)
 // int knapsack(int v[],int w[],int n,int W){
 //     if(n==0||W==0){
 //         return 0;
@@ -16,7 +16,7 @@ int max(int a,int b){
 //     }
 //     return max(v[n-1]+knapsack(v,w,n-1,W-w[n-1]),knapsack(v,w,n-1,W));
 // }
-// dp method time complexity is n*W
+// dp method time complexity is O(n*W)
 int knapsackdp(int v[],int w[],int n,int W){
     int mat[n+1][W+1];
     for(int i=0;i<n+1;i++){

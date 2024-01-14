@@ -51,7 +51,7 @@ int travellingSalesman(int n,vector<vector<int> > adjacency_matrix, int start){
         }
         cdist += adjacency_matrix[city][start];
         dmin = min(dmin,cdist);
-    }while(next_permutation(cities.begin(),cities.end()));// time compleity (n!){exponential time complexity}
+    }while(next_permutation(cities.begin(),cities.end()));// time compleity O(n!){exponential time complexity}
 
     return dmin;
 }

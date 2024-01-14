@@ -3,6 +3,7 @@
 #include <fstream>
 using namespace std;
 
+//time complexity is linear O(n)
 long long max_sum(int a[],int n){
     int max = INT_MIN;
     int second_max = max;
