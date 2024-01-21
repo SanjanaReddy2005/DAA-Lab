@@ -1,0 +1,1 @@
+First minimum : 7 Second minimum : 56
