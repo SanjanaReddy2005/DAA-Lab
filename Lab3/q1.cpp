@@ -1,4 +1,6 @@
 #include <iostream>
+#include <vector>
+#include <cmath>
 using namespace std;
 
 // for naive method time complexity is O(n^(3))

@@ -1,6 +1,7 @@
 #include <iostream>
 #include <math.h>
 #include <cmath>
+#include <vector>
 using namespace std;
 
 // This is divide and conquer apporoch
