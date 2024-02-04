@@ -8,11 +8,11 @@ using namespace std;
 // time complexity is O(nlog(n)) 
 // space complexity is O(n)
 
-int merge(int a[],int temp[],int l,int mid,int r){
+long long merge(int a[],int temp[],int l,int mid,int r){
     int start1 = l;
     int start2 = mid;
     int start = l;
-    int count = 0;
+    long long count = 0;
     while((start1<mid) && (start2<=r)){
         if(a[start1]<a[start2]){
             temp[start++] = a[start1++];
@@ -37,10 +37,10 @@ int merge(int a[],int temp[],int l,int mid,int r){
     return count;
 }
 
-int mergesort(int a[],int temp[],int l,int r){
+long long mergesort(int a[],int temp[],int l,int r){
     if(l>=r) return 0;
     int mid = l+(r-l)/2;
-    int count = 0;
+    long long count = 0;
     count+=mergesort(a,temp,l,mid);
     count+=mergesort(a,temp,mid+1,r);
     count+=merge(a,temp,l,mid+1,r);
