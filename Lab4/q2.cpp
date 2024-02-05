@@ -4,7 +4,7 @@
 #include <math.h>
 using namespace std;
 
-// time complexity is O(n) ans space complexity is O(log(min(n,m))) in which two arrays are stored
+// space complexity is O(1) ans time complexity is O(log(min(n,m))) in which two arrays are stored
 
 int max(int a,int b){
     return (a>b?a:b);
