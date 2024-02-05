@@ -26,7 +26,7 @@ long long merge(int a[],int temp[],int l,int mid,int r){
         start++;
         start1++;
     }
-    while(start2<mid){
+    while(start2<=r){
         temp[start] = a[start2];
         start++;
         start2++;
