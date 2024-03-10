@@ -1,0 +1,32 @@
+Articulation Points are 
+0 3 
+Bridges of the graph 
+4 3
+3 0
+
+Articulation Points are 
+6 
+Bridges of the graph 
+7 6
+
+Articulation Points are 
+1 
+Bridges of the graph 
+6 1
+
+Articulation Points are 
+1 
+Bridges of the graph 
+3 1
+1 0
+
+Articulation Points are 
+0 2 3 
+Bridges of the graph 
+1 0
+4 3
+5 3
+6 3
+3 2
+2 0
+
