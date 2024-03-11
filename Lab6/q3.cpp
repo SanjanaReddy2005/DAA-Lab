@@ -36,7 +36,7 @@ class Graph{
                 sCCutil(adjVertex,disc,low,st,stackMember,time);
                 low[u] = min(low[u],low[adjVertex]);
             }else if(stackMember[adjVertex]==true){
-                low[u] = min(low[u],low[adjVertex]);
+                low[u] = min(low[u],disc[adjVertex]);
             }
         }
         // cout << "HI" << st.size() << endl;

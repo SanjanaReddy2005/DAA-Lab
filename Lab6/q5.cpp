@@ -41,7 +41,7 @@ class Graph{
                     isAp[u] = true;
                 }
             }else if(adjList[u][i]!=parent){
-                low[u] = min(low[u],low[adjList[u][i]]);
+                low[u] = min(low[u],disc[adjList[u][i]]);
             }
         }
         if(parent==-1 && children>=2){
