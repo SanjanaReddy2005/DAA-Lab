@@ -1,0 +1,8 @@
+Greedy output is : 35
+Dynamic Programing output is : 37
+Greedy output is : 281
+Dynamic Programing output is : 281
+Greedy output is : 1992
+Dynamic Programing output is : 2036
+Greedy output is : 963
+Dynamic Programing output is : 963

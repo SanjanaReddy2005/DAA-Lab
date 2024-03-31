@@ -1,0 +1,4 @@
+Profit objtained by greedy method is : 60
+Profit obtained by priority queue is : 60
+Profit objtained by greedy method is : 142
+Profit obtained by priority queue is : 142
