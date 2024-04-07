@@ -1,0 +1,10 @@
+Maximum Cost Spanning Tree: 30
+Maximum Cost Spanning Tree: 12
+Maximum Cost Spanning Tree: 18
+Maximum Cost Spanning Tree: 4
+Maximum Cost Spanning Tree: 22135
+Maximum Cost Spanning Tree: 60721
+Maximum Cost Spanning Tree: 79589
+Maximum Cost Spanning Tree: 31163
+Maximum Cost Spanning Tree: 68505
+Maximum Cost Spanning Tree: 21469
